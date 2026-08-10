@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+        <title>Enciclopédia de Animais da América Latina</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Enciclopédia de animais e curiosidades da América Latina" name="keywords">
+        <meta content="Site com fatos, imagens e informações sobre flora e fauna da América Latina." name="description">
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&family=Open+Sans&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-secondary top-bar wow fadeIn" data-wow-delay="0.1s">
+        <div class="row align-items-center h-100">
+            <div class="col-lg-4 text-center text-lg-start">
+                <a href="index.html">
+                    <h1 class="display-5 text-primary m-0">Enciclopédia</h1>
+                </a>
+            </div>
+            <div class="col-lg-8 d-none d-lg-block">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="d-flex justify-content-end">
+                            <div class="flex-shrink-0 btn-square bg-primary">
+                                <i class="fa fa-globe text-dark"></i>
+                            </div>
+                            <div class="ms-2">
+                                <h6 class="text-primary mb-0">Tema</h6>
+                                <span class="text-white">Fauna Latina</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="d-flex justify-content-end">
+                            <div class="flex-shrink-0 btn-square bg-primary">
+                                <i class="fa fa-book-open text-dark"></i>
+                            </div>
+                            <div class="ms-2">
+                                <h6 class="text-primary mb-0">Conteúdo</h6>
+                                <span class="text-white">Curiosidades e fatos</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="d-flex justify-content-end">
+                            <div class="flex-shrink-0 btn-square bg-primary">
+                                <i class="fa fa-leaf text-dark"></i>
+                            </div>
+                            <div class="ms-2">
+                                <h6 class="text-primary mb-0">Região</h6>
+                                <span class="text-white">América Latina</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-secondary px-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="nav-bar">
+            <nav class="navbar navbar-expand-lg bg-primary navbar-dark px-4 py-lg-0">
+                <h4 class="d-lg-none m-0">Menu</h4>
+                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav me-auto">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="quem-somos.html" class="nav-item nav-link">Quem Somos</a>
+                        <a href="categorias.html" class="nav-item nav-link">Categorias</a>
+                        <a href="formulario.html" class="nav-item nav-link">Sugestões</a>
+                        <a href="contato.html" class="nav-item nav-link">Contato</a>
+                    </div>
+                   
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="owl-carousel header-carousel py-5">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="carousel-text">
+                            <h1 class="display-1 text-uppercase mb-3">Bem-vindo à Enciclopédia Latino-Americana</h1>
+                            <p class="fs-5 mb-5">Explore fatos curiosos, notícias sobre animais e dicas de conservação sem complicação.</p>
+                            <div class="d-flex">
+                                <a class="btn btn-primary py-3 px-4 me-3" href="quem-somos.html">Saiba Mais</a>
+                                <a class="btn btn-secondary py-3 px-4" href="categorias.html">Ver Categorias</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="carousel-text">
+                            <h1 class="display-1 text-uppercase mb-3">Notícias e Curiosidades da Fauna</h1>
+                            <p class="fs-5 mb-5">Fique por dentro de descobertas, espécies incríveis e ações que ajudam a natureza.</p>
+                            <div class="d-flex mt-4">
+                                <a class="btn btn-primary py-3 px-4 me-3" href="#!">Ler Agora</a>
+                                <a class="btn btn-secondary py-3 px-4" href="#!">Ver Histórias</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="carousel-img">
+                            <img class="w-100" src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=80" alt="Arara brilhante na floresta">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Video Start -->
+    <div class="container-fluid bg-primary mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-lg-11">
+                    <div class="h-100 py-5 d-flex align-items-center">
+                        <button type="button" class="btn-play" data-bs-toggle="modal"
+                            data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
+                            <span></span>
+                        </button>
+                        <h3 class="ms-5 mb-0">Veja vídeos curtos e curiosidades sobre animais e florestas da América Latina.</h3>
+                    </div>
+                </div>
+                <div class="d-none d-lg-block col-lg-1">
+                    <div class="h-100 w-100 bg-secondary d-flex align-items-center justify-content-center">
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video End -->
+
+
+    <!-- Video Modal Start -->
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- 16:9 aspect ratio -->
+                    <div class="ratio ratio-16x9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen
+                            allowscriptaccess="always" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.2s">
+                    <div class="about-img">
+                        <img class="img-fluid w-100" src="https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?auto=format&fit=crop&w=900&q=80" alt="Floresta e animais da América Latina">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <p class="section-title bg-white text-start text-primary pe-3">Quem Somos</p>
+                    <h1 class="display-6 mb-4 wow fadeIn" data-wow-delay="0.2s">Conheça a história por trás do projeto</h1>
+                    <p class="mb-4 wow fadeIn" data-wow-delay="0.3s">Esta enciclopédia foi criada para reunir curiosidades e informações reais sobre os animais da América Latina de uma maneira leve e fácil de entender.</p>
+                    <div class="row g-4 pt-2">
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
+                            <div class="h-100">
+                                <h3>O que fazemos</h3>
+                                <p>Compartilhamos histórias, habitats e dicas de conservação com uma linguagem acessível.</p>
+                                <p class="text-dark"><i class="fa fa-check text-primary me-2"></i>Textos simples e diretos.</p>
+                                <p class="text-dark"><i class="fa fa-check text-primary me-2"></i>Dados reais sobre espécies.</p>
+                                <p class="text-dark mb-0"><i class="fa fa-check text-primary me-2"></i>Conteúdo para inspirar a proteção da natureza.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                            <div class="h-100 bg-primary p-4 text-center">
+                                <p class="fs-5 text-dark">Explore a enciclopédia e conheça mais sobre a fauna, suas curiosidades e os cuidados necessários para preservá-la.</p>
+                                <a class="btn btn-secondary py-2 px-4" href="#!">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Service Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-12 col-lg-4 col-xl-3 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="service-title">
+                        <h1 class="display-6 mb-4">O que você encontra aqui</h1>
+                        <p class="fs-5 mb-0">Texto leve sobre animais, habitats e curiosidades da América Latina.</p>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-8 col-xl-9">
+                    <div class="row g-5">
+                        <div class="col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.1s">
+                            <div class="service-item h-100">
+                                <div class="btn-square bg-light mb-4">
+                                    <i class="fa fa-tree fa-2x text-secondary"></i>
+                                </div>
+                                <h3>Vida Selvagem</h3>
+                                <p class="mb-2">Conteúdos sobre espécies reais e curiosidades da fauna latino-americana.</p>
+                                <a href="#!">Ler mais</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.3s">
+                            <div class="service-item h-100">
+                                <div class="btn-square bg-light mb-4">
+                                    <i class="fa fa-leaf fa-2x text-secondary"></i>
+                                </div>
+                                <h3>Conservação</h3>
+                                <p class="mb-2">Informações sobre ações que ajudam a proteger rios, florestas e mares.</p>
+                                <a href="#!">Ler mais</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.5s">
+                            <div class="service-item h-100">
+                                <div class="btn-square bg-light mb-4">
+                                    <i class="fa fa-butterfly fa-2x text-secondary"></i>
+                                </div>
+                                <h3>Curiosidades</h3>
+                                <p class="mb-2">Fatos divertidos sobre animais e lugares incríveis da América Latina.</p>
+                                <a href="#!">Ler mais</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.1s">
+                            <div class="service-item h-100">
+                                <div class="btn-square bg-light mb-4">
+                                    <i class="fa fa-map fa-2x text-secondary"></i>
+                                </div>
+                                <h3>Habitat</h3>
+                                <p class="mb-2">Conheça onde vivem os animais e por que esses lugares são tão importantes.</p>
+                                <a href="#!">Ler mais</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.3s">
+                            <div class="service-item h-100">
+                                <div class="btn-square bg-light mb-4">
+                                    <i class="fa fa-paw fa-2x text-secondary"></i>
+                                </div>
+                                <h3>Espécies</h3>
+                                <p class="mb-2">Fichas rápidas com nomes, habitats e curiosidades sobre diversas espécies.</p>
+                                <a href="#!">Ler mais</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 wow fadeIn" data-wow-delay="0.5s">
+                            <div class="service-item h-100">
+                                <div class="btn-square bg-light mb-4">
+                                    <i class="fa fa-globe fa-2x text-secondary"></i>
+                                </div>
+                                <h3>Regiões</h3>
+                                <p class="mb-2">Descubra onde cada grupo animal vive e quais biomas são mais afetados.</p>
+                                <a href="#!">Ler mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Features Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <div class="rounded overflow-hidden">
+                        <div class="row g-0">
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="text-center bg-primary py-5 px-4 h-100">
+                                    <i class="fa fa-tree fa-3x text-secondary mb-3"></i>
+                                    <h1 class="display-5 mb-0" data-toggle="counter-up">120</h1>
+                                    <span class="text-dark">Espécies em destaque</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                                <div class="text-center bg-secondary py-5 px-4 h-100">
+                                    <i class="fa fa-map fa-3x text-primary mb-3"></i>
+                                    <h1 class="display-5 text-white mb-0" data-toggle="counter-up">6</h1>
+                                    <span class="text-white">Regiões cobertas</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                                <div class="text-center bg-secondary py-5 px-4 h-100">
+                                    <i class="fa fa-paw fa-3x text-primary mb-3"></i>
+                                    <h1 class="display-5 text-white mb-0" data-toggle="counter-up">400+</h1>
+                                    <span class="text-white">Fatos sobre animais</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+                                <div class="text-center bg-primary py-5 px-4 h-100">
+                                    <i class="fa fa-leaf fa-3x text-secondary mb-3"></i>
+                                    <h1 class="display-5 mb-0" data-toggle="counter-up">100%</h1>
+                                    <span class="text-dark">Foco em conservação</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <p class="section-title bg-white text-start text-primary pe-3">Por que ler?</p>
+                    <h1 class="display-6 mb-4 wow fadeIn" data-wow-delay="0.2s">Histórias reais e curiosas sobre a fauna latina.</h1>
+                    <p class="mb-4 wow fadeIn" data-wow-delay="0.3s">Escolhemos fatos simples para que você conheça animais, florestas e ambientes naturais com facilidade.</p>
+                    <p class="text-dark wow fadeIn" data-wow-delay="0.4s"><i class="fa fa-check text-primary me-2"></i>Leitura rápida e direta.</p>
+                    <p class="text-dark wow fadeIn" data-wow-delay="0.5s"><i class="fa fa-check text-primary me-2"></i>Conteúdos sobre espécies reais.</p>
+                    <p class="text-dark wow fadeIn" data-wow-delay="0.6s"><i class="fa fa-check text-primary me-2"></i>Inspiração para proteger a natureza.</p>
+                    <div class="d-flex mt-4 wow fadeIn" data-wow-delay="0.7s">
+                        <a class="btn btn-primary py-3 px-4 me-3" href="categorias.html">Ver categorias</a>
+                        <a class="btn btn-secondary py-3 px-4" href="quem-somos.html">Conhecer mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features End -->
+
+
+    <!-- Donation Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="section-title bg-white text-center text-primary px-3">Projetos</p>
+                <h1 class="display-6 mb-4">Ações que ajudam os animais e a natureza</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="donation-item d-flex h-100 p-4">
+                        <div class="donation-progress d-flex flex-column flex-shrink-0 text-center me-4">
+                            <h6 class="mb-0">Avaliação</h6>
+                            <span class="mb-2">85%</span>
+                            <div class="progress d-flex align-items-end w-100 h-100 mb-2">
+                                <div class="progress-bar w-100 bg-secondary" role="progressbar" aria-valuenow="85"
+                                    aria-valuemin="0" aria-valuemax="100">
+                                    <span class="fs-4">85%</span>
+                                </div>
+                            </div>
+                            <h6 class="mb-0">Concluído</h6>
+                            <span>Simulação</span>
+                        </div>
+                        <div class="donation-detail">
+                            <div class="position-relative mb-4">
+                                <img class="img-fluid w-100" src="https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?auto=format&fit=crop&w=900&q=80" alt="Floresta tropical">
+                                <a href="#!"
+                                    class="btn btn-sm btn-secondary px-3 position-absolute top-0 end-0">Fauna</a>
+                            </div>
+                            <a href="#!" class="h3 d-inline-block">Proteção de florestas</a>
+                            <p>Conheça ações que mostram como cuidar das árvores ajuda animais e pessoas.</p>
+                            <a href="#!" class="btn btn-primary w-100 py-3"><i class="fa fa-plus me-2"></i>Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.13s">
+                    <div class="donation-item d-flex h-100 p-4">
+                        <div class="donation-progress d-flex flex-column flex-shrink-0 text-center me-4">
+                            <h6 class="mb-0">Avaliação</h6>
+                            <span class="mb-2">95%</span>
+                            <div class="progress d-flex align-items-end w-100 h-100 mb-2">
+                                <div class="progress-bar w-100 bg-secondary" role="progressbar" aria-valuenow="95"
+                                    aria-valuemin="0" aria-valuemax="100">
+                                    <span class="fs-4">95%</span>
+                                </div>
+                            </div>
+                            <h6 class="mb-0">Concluído</h6>
+                            <span>Simulação</span>
+                        </div>
+                        <div class="donation-detail">
+                            <div class="position-relative mb-4">
+                                <img class="img-fluid w-100" src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80" alt="Aves na floresta">
+                                <a href="#!"
+                                    class="btn btn-sm btn-secondary px-3 position-absolute top-0 end-0">Aves</a>
+                            </div>
+                            <a href="#!" class="h3 d-inline-block">Proteção de aves</a>
+                            <p>Descubra como preservar habitats mantém aves coloridas e saudáveis.</p>
+                            <a href="#!" class="btn btn-primary w-100 py-3"><i class="fa fa-plus me-2"></i>Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="donation-item d-flex h-100 p-4">
+                        <div class="donation-progress d-flex flex-column flex-shrink-0 text-center me-4">
+                            <h6 class="mb-0">Avaliação</h6>
+                            <span class="mb-2">75%</span>
+                            <div class="progress d-flex align-items-end w-100 h-100 mb-2">
+                                <div class="progress-bar w-100 bg-secondary" role="progressbar" aria-valuenow="75"
+                                    aria-valuemin="0" aria-valuemax="100">
+                                    <span class="fs-4">75%</span>
+                                </div>
+                            </div>
+                            <h6 class="mb-0">Concluído</h6>
+                            <span>Simulação</span>
+                        </div>
+                        <div class="donation-detail">
+                            <div class="position-relative mb-4">
+                                <img class="img-fluid w-100" src="https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=900&q=80" alt="Jaguar na natureza">
+                                <a href="#!"
+                                    class="btn btn-sm btn-secondary px-3 position-absolute top-0 end-0">Espécie</a>
+                            </div>
+                            <a href="#!" class="h3 d-inline-block">Ajuda às espécies</a>
+                            <p>Veja exemplos de ações que protegem animais e seu ambiente natural.</p>
+                            <a href="#!" class="btn btn-primary w-100 py-3"><i class="fa fa-plus me-2"></i>Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Donation End -->
+
+
+    <!-- Banner Start -->
+    <div class="container-fluid banner py-5">
+        <div class="container">
+            <div class="banner-inner bg-light p-5 wow fadeIn" data-wow-delay="0.1s">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 py-5 text-center">
+                        <h1 class="display-6 wow fadeIn" data-wow-delay="0.3s">Conheça o mundo animal da América Latina de um jeito simples e inspirador.</h1>
+                        <p class="fs-5 mb-4 wow fadeIn" data-wow-delay="0.5s">Histórias de espécies, curiosidades de florestas e ideias para cuidar do nosso planeta.</p>
+                        <div class="d-flex justify-content-center wow fadeIn" data-wow-delay="0.7s">
+                            <a class="btn btn-primary py-3 px-4 me-3" href="categorias.html">Explorar Agora</a>
+                            <a class="btn btn-secondary py-3 px-4" href="quem-somos.html">Saber Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Banner End -->
+
+
+    <!-- Event Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="section-title bg-white text-center text-primary px-3">Eventos</p>
+                <h1 class="display-6 mb-4">Histórias da natureza que encantam</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="event-item h-100 p-4">
+                        <img class="img-fluid w-100 mb-4" src="https://images.unsplash.com/photo-1454789548928-9efd52dc4031?auto=format&fit=crop&w=900&q=80" alt="Amazônia">
+                        <a href="#!" class="h3 d-inline-block">Rios e Florestas</a>
+                        <p>Dicas para entender como rios e florestas formam o lar de espécies únicas.</p>
+                        <div class="bg-light p-4">
+                            <p class="mb-1"><i class="fa fa-clock text-primary me-2"></i>Leitura rápida</p>
+                            <p class="mb-1"><i class="fa fa-calendar-alt text-primary me-2"></i>Hoje</p>
+                            <p class="mb-0"><i class="fa fa-map-marker-alt text-primary me-2"></i>América Latina</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="event-item h-100 p-4">
+                        <img class="img-fluid w-100 mb-4" src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80" alt="Vida selvagem">
+                        <a href="#!" class="h3 d-inline-block">Animais icônicos</a>
+                        <p>Uma seleção de animais que mostram a diversidade latina.</p>
+                        <div class="bg-light p-4">
+                            <p class="mb-1"><i class="fa fa-clock text-primary me-2"></i>Leitura rápida</p>
+                            <p class="mb-1"><i class="fa fa-calendar-alt text-primary me-2"></i>Hoje</p>
+                            <p class="mb-0"><i class="fa fa-map-marker-alt text-primary me-2"></i>América Latina</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="event-item h-100 p-4">
+                        <img class="img-fluid w-100 mb-4" src="https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?auto=format&fit=crop&w=900&q=80" alt="Mata tropical">
+                        <a href="#!" class="h3 d-inline-block">Curiosidades naturais</a>
+                        <p>Fatos curtos sobre plantas, animais e clima na região.</p>
+                        <div class="bg-light p-4">
+                            <p class="mb-1"><i class="fa fa-clock text-primary me-2"></i>Leitura rápida</p>
+                            <p class="mb-1"><i class="fa fa-calendar-alt text-primary me-2"></i>Hoje</p>
+                            <p class="mb-0"><i class="fa fa-map-marker-alt text-primary me-2"></i>América Latina</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Event End -->
+
+
+    <!-- Donate Start -->
+    <div class="container-fluid donate py-5">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-lg-7 donate-text bg-light py-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="d-flex flex-column justify-content-center h-100 p-5 wow fadeIn" data-wow-delay="0.3s">
+                        <h1 class="display-6 mb-4">Envie sua sugestão de animal, curiosidade ou foto</h1>
+                        <p class="fs-5 mb-0">Ajude a ampliar esta enciclopédia com ideias novas sobre fauna, plantas e regiões da América Latina.</p>
+                    </div>
+                </div>
+                <div class="col-lg-5 donate-form bg-primary py-5 text-center wow fadeIn" data-wow-delay="0.5s">
+                    <div class="h-100 p-5">
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="name" placeholder="Seu Nome">
+                                        <label for="name">Seu Nome</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="email" placeholder="Seu Email">
+                                        <label for="email">Seu Email</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                                        <input type="radio" class="btn-check" name="btnradio" id="btnradio1"
+                                            autocomplete="off" checked>
+                                        <label class="btn btn-light" for="btnradio1">Animal</label>
+
+                                        <input type="radio" class="btn-check" name="btnradio" id="btnradio2"
+                                            autocomplete="off">
+                                        <label class="btn btn-light" for="btnradio2">Planta</label>
+
+                                        <input type="radio" class="btn btn-check" name="btnradio" id="btnradio3"
+                                            autocomplete="off">
+                                        <label class="btn btn-light" for="btnradio3">Região</label>
+
+                                        <input type="radio" class="btn btn-check" name="btnradio" id="btnradio4"
+                                            autocomplete="off">
+                                        <label class="btn btn-light" for="btnradio4">Curiosidade</label>
+
+                                        <input type="radio" class="btn btn-check" name="btnradio" id="btnradio5"
+                                            autocomplete="off">
+                                        <label class="btn btn-light" for="btnradio5">Outro</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-secondary py-3 w-100" type="submit">Enviar Sugestão</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Donate End -->
+
+
+    <!-- Team Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="section-title bg-white text-center text-primary px-3">Nossa Seleção</p>
+                <h1 class="display-6 mb-4">Espécies e paisagens em destaque</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="team-item d-flex h-100 p-4">
+                        <div class="team-detail pe-4">
+                            <img class="img-fluid mb-4" src="https://images.unsplash.com/photo-1515622112105-54c341f0b5cc?auto=format&fit=crop&w=900&q=80" alt="Floresta tropical">
+                            <h3>Floresta</h3>
+                            <span>Ambiente rico em espécies</span>
+                        </div>
+                        <div class="team-social bg-light d-flex flex-column justify-content-center flex-shrink-0 p-4">
+                            <a class="btn btn-square btn-primary my-2" href="#!"><i class="fa fa-tree"></i></a>
+                            <a class="btn btn-square btn-primary my-2" href="#!"><i class="fa fa-water"></i></a>
+                            <a class="btn btn-square btn-primary my-2" href="#!"><i class="fa fa-leaf"></i></a>
+                            <a class="btn btn-square btn-primary my-2" href="#!"><i class="fa fa-paw"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="team-item d-flex h-100 p-4">
+                        <div class="team-detail pe-4">
+                            <img class="img-fluid mb-4" src="https://images.unsplash.com/photo-1523978591478-c753949ff840?auto=format&fit=crop&w=900&q=80" alt="Onça-pintada">
+                            <h3>Onça-pintada</h3>
+                            <span>Caçadora do Pantanal</span>
+                        </div>
+                        <div class="team-social bg-light d-flex flex-column justify-content-center flex-shrink-0 p-4">
+                            <a class="btn btn-square btn-primary my-2" href="#!"><i class="fa fa-paw"></i></a>
+                            <a class="btn btn-square btn-primary my-2" href="#!"><i class="fa fa-tree"></i></a>
+                            <a class="btn btn-square btn-primary my-2" href="#!"><i class="fa fa-water"></i></a>
+                            <a class="btn btn-square btn-primary my-2" href="#!"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="team-item d-flex h-100 p-4">
+                        <div class="team-detail pe-4">
+                            <img class="img-fluid mb-4" src="https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=900&q=80" alt="Jaguar na natureza">
+                            <h3>Jaguar</h3>
+                            <span>Ícone da Mata Atlântica</span>
+                        </div>
+                        <div class="team-social bg-light d-flex flex-column justify-content-center flex-shrink-0 p-4">
+                            <a class="btn btn-square btn-primary my-2" href="#!"><i class="fa fa-paw"></i></a>
+                            <a class="btn btn-square btn-primary my-2" href="#!"><i class="fa fa-leaf"></i></a>
+                            <a class="btn btn-square btn-primary my-2" href="#!"><i class="fa fa-water"></i></a>
+                            <a class="btn btn-square btn-primary my-2" href="#!"><i class="fa fa-star"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-12 col-lg-4 col-xl-3 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="testimonial-title">
+                        <h1 class="display-6 mb-4">Lembretes sobre a natureza</h1>
+                        <p class="fs-5 mb-0">Pequenas histórias para lembrar por que a fauna da América Latina é especial.</p>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-8 col-xl-9">
+                    <div class="owl-carousel testimonial-carousel wow fadeIn" data-wow-delay="0.3s">
+                        <div class="testimonial-item">
+                            <div class="row g-5 align-items-center">
+                                <div class="col-md-6">
+                                    <div class="testimonial-img">
+                                        <img class="img-fluid" src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=900&q=80" alt="Arara">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="testimonial-text pb-5 pb-md-0">
+                                        <div class="mb-2">
+                                            <i class="fa fa-star text-primary"></i>
+                                            <i class="fa fa-star text-primary"></i>
+                                            <i class="fa fa-star text-primary"></i>
+                                            <i class="fa fa-star text-primary"></i>
+                                            <i class="fa fa-star text-primary"></i>
+                                        </div>
+                                        <p class="fs-5">A arara-vermelha pode voar até 50 km por dia para encontrar frutas e sementes.</p>
+                                        <div class="d-flex align-items-center">
+                                            <div class="btn-lg-square bg-light text-secondary flex-shrink-0">
+                                                <i class="fa fa-quote-right fa-2x"></i>
+                                            </div>
+                                            <div class="ps-3">
+                                                <h5 class="mb-0">Curiosidade</h5>
+                                                <span>Fauna da Amazônia</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item">
+                            <div class="row g-5 align-items-center">
+                                <div class="col-md-6">
+                                    <div class="testimonial-img">
+                                        <img class="img-fluid" src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=900&q=80" alt="Onça">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="testimonial-text pb-5 pb-md-0">
+                                        <div class="mb-2">
+                                            <i class="fa fa-star text-primary"></i>
+                                            <i class="fa fa-star text-primary"></i>
+                                            <i class="fa fa-star text-primary"></i>
+                                            <i class="fa fa-star text-primary"></i>
+                                            <i class="fa fa-star text-primary"></i>
+                                        </div>
+                                        <p class="fs-5">A onça-pintada é o maior felino das Américas e pode nadar muito bem.</p>
+                                        <div class="d-flex align-items-center">
+                                            <div class="btn-lg-square bg-light text-secondary flex-shrink-0">
+                                                <i class="fa fa-quote-right fa-2x"></i>
+                                            </div>
+                                            <div class="ps-3">
+                                                <h5 class="mb-0">Curiosidade</h5>
+                                                <span>Pantanal</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item">
+                            <div class="row g-5 align-items-center">
+                                <div class="col-md-6">
+                                    <div class="testimonial-img">
+                                        <img class="img-fluid" src="https://images.unsplash.com/photo-1470770903676-69b98201ea1c?auto=format&fit=crop&w=900&q=80" alt="Mico-leão-dourado">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="testimonial-text pb-5 pb-md-0">
+                                        <div class="mb-2">
+                                            <i class="fa fa-star text-primary"></i>
+                                            <i class="fa fa-star text-primary"></i>
+                                            <i class="fa fa-star text-primary"></i>
+                                            <i class="fa fa-star text-primary"></i>
+                                            <i class="fa fa-star text-primary"></i>
+                                        </div>
+                                        <p class="fs-5">O mico-leão-dourado vive na Mata Atlântica e é um símbolo de conservação no Brasil.</p>
+                                        <div class="d-flex align-items-center">
+                                            <div class="btn-lg-square bg-light text-secondary flex-shrink-0">
+                                                <i class="fa fa-quote-right fa-2x"></i>
+                                            </div>
+                                            <div class="ps-3">
+                                                <h5 class="mb-0">Curiosidade</h5>
+                                                <span>Mata Atlântica</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Newsletter Start -->
+    <div class="container-fluid bg-primary py-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-7 text-center wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="display-6 mb-4">Receba novidades da enciclopédia</h1>
+                    <div class="position-relative w-100 mb-2">
+                        <input class="form-control border-0 w-100 ps-4 pe-5" type="text" placeholder="Digite seu email"
+                            style="height: 60px;">
+                        <button type="button"
+                            class="btn btn-lg-square shadow-none position-absolute top-0 end-0 mt-2 me-2"><i
+                                class="fa fa-paper-plane text-primary fs-4"></i></button>
+                    </div>
+                    <p class="mb-0">Sem spam, apenas curiosidades e novidades sobre animais e plantas.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Newsletter End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row g-5 py-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Sobre o site</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Florestas e parques da América Latina</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>contato@enciclopedia.com</p>
+                    <div class="d-flex pt-3">
+                        <a class="btn btn-square btn-primary me-2" href="#!"><i class="fa fa-tree"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href="#!"><i class="fa fa-leaf"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href="#!"><i class="fa fa-paw"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href="#!"><i class="fa fa-globe"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Navegação</h4>
+                    <a class="btn btn-link" href="index.html">Início</a>
+                    <a class="btn btn-link" href="quem-somos.html">Quem Somos</a>
+                    <a class="btn btn-link" href="categorias.html">Categorias</a>
+                    <a class="btn btn-link" href="contato.html">Contato</a>
+                    <a class="btn btn-link" href="formulario.html">Sugestões</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Sobre o tema</h4>
+                    <p class="mb-1">Animais, plantas e paisagens da América Latina</p>
+                    <h6 class="text-light">Conteúdo para curiosos</h6>
+                    <p class="mb-1">Histórias rápidas e fotos inspiradoras</p>
+                    <h6 class="text-light">Acesse de qualquer lugar</h6>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Gallery</h4>
+                    <div class="row g-2">
+                        <div class="col-4">
+                            <img class="img-fluid w-100" src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=300&q=80" alt="Vida selvagem">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid w-100" src="https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?auto=format&fit=crop&w=300&q=80" alt="Floresta tropical">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid w-100" src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=300&q=80" alt="Arara brilhante">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid w-100" src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=300&q=80" alt="Onça-pintada">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid w-100" src="https://images.unsplash.com/photo-1470770903676-69b98201ea1c?auto=format&fit=crop&w=300&q=80" alt="Mico-leão-dourado">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid w-100" src="https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=300&q=80" alt="Jaguar na natureza">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright pt-5">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="fw-semi-bold" href="index.html">Enciclopédia</a>, Todos os direitos reservados.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        Criado para divulgar curiosidades sobre a fauna e flora da América Latina.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#!" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
