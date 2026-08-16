@@ -1,100 +1,151 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mamíferos</title>
+    <title>Mamíferos da América Latina</title>
 
-     <link href="style.css" rel="stylesheet">
-
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Mamíferos</h1>
-    <p>Esta é uma página sobre mamíferos</p>
-     <section id="gallery" class="gallery section">
+    <main class="animal-page">
+        <section class="container py-5">
+            <p class="section-title bg-white text-start text-primary pe-3">Mamíferos</p>
+            <h1 class="display-6 mb-3">Mamíferos da América Latina</h1>
+            <p class="lead text-dark mb-4">
+                Conheça algumas das espécies mais fascinantes da fauna latino-americana, com fotos, curiosidades e dados importantes.
+            </p>
+        </section>
 
-      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+        <section class="container pb-5">
+            <div class="animal-grid">
+                <article class="animal-card" data-name="Capivara" data-scientific="Hydrochoerus hydrochaeris" data-classification="Mammalia · Rodentia · Caviidae" data-description="A capivara é o maior roedor do mundo e vive em grupos próximos a rios e banhados da América do Sul." data-image="https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=900&q=80">
+                    <div class="animal-card__image">
+                        <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=900&q=80" alt="Capivara">
+                        <span class="animal-card__badge">América do Sul</span>
+                    </div>
+                    <div class="animal-card__info">
+                        <h3>Capivara</h3>
+                        <p>Grande roedor de ambiente aquático.</p>
+                    </div>
+                </article>
 
-        <div class="row gy-4 justify-content-center">
+                <article class="animal-card" data-name="Jaguar" data-scientific="Panthera onca" data-classification="Mammalia · Carnivora · Felidae" data-description="O jaguar é um dos maiores felinos das Américas e é conhecido por sua força, camuflagem e excelente capacidade de natação." data-image="https://images.unsplash.com/photo-1546182990-dffeafbe841d?auto=format&fit=crop&w=900&q=80">
+                    <div class="animal-card__image">
+                        <img src="https://images.unsplash.com/photo-1546182990-dffeafbe841d?auto=format&fit=crop&w=900&q=80" alt="Jaguar">
+                        <span class="animal-card__badge">Selva</span>
+                    </div>
+                    <div class="animal-card__info">
+                        <h3>Jaguar</h3>
+                        <p>Predador poderoso e silencioso.</p>
+                    </div>
+                </article>
 
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="img/capivara.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="img/gallery-1.jpg" title="Gallery 1" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="index.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
+                <article class="animal-card" data-name="Lobo-guará" data-scientific="Chrysocyon brachyurus" data-classification="Mammalia · Carnivora · Canidae" data-description="O lobo-guará possui pernas longas e orelhas grandes, sendo um símbolo da fauna brasileira e com hábitos principalmente crepusculares." data-image="https://images.unsplash.com/photo-1474511320723-9a56873867b5?auto=format&fit=crop&w=900&q=80">
+                    <div class="animal-card__image">
+                        <img src="https://images.unsplash.com/photo-1474511320723-9a56873867b5?auto=format&fit=crop&w=900&q=80" alt="Lobo-guará">
+                        <span class="animal-card__badge">Cerrado</span>
+                    </div>
+                    <div class="animal-card__info">
+                        <h3>Lobo-guará</h3>
+                        <p>Animal elegante do Cerrado.</p>
+                    </div>
+                </article>
+
+                <article class="animal-card" data-name="Tamanduá-bandeira" data-scientific="Myrmecophaga tridactyla" data-classification="Mammalia · Pilosa · Myrmecophagidae" data-description="O tamanduá-bandeira se alimenta de formigas e cupins e usa a cauda como apoio ao se deslocar entre árvores e solo." data-image="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80">
+                    <div class="animal-card__image">
+                        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80" alt="Tamanduá-bandeira">
+                        <span class="animal-card__badge">Floresta</span>
+                    </div>
+                    <div class="animal-card__info">
+                        <h3>Tamanduá-bandeira</h3>
+                        <p>Especialista em formigas e cupins.</p>
+                    </div>
+                </article>
+
+                <article class="animal-card" data-name="Boto-cor-de-rosa" data-scientific="Inia geoffrensis" data-classification="Mammalia · Artiodactyla · Iniidae" data-description="O boto-cor-de-rosa vive nos rios da Amazônia e é conhecido pela coloração rosada que se destaca na água." data-image="https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?auto=format&fit=crop&w=900&q=80">
+                    <div class="animal-card__image">
+                        <img src="https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?auto=format&fit=crop&w=900&q=80" alt="Boto-cor-de-rosa">
+                        <span class="animal-card__badge">Amazônia</span>
+                    </div>
+                    <div class="animal-card__info">
+                        <h3>Boto-cor-de-rosa</h3>
+                        <p>Golfinho dos rios amazônicos.</p>
+                    </div>
+                </article>
+
+                <article class="animal-card" data-name="Tapir" data-scientific="Tapirus terrestris" data-classification="Mammalia · Perissodactyla · Tapiridae" data-description="O tapir é um mamífero de grande porte que ajuda a dispersar sementes em florestas tropicais e ambientes úmidos." data-image="https://images.unsplash.com/photo-1474511320723-9a56873867b5?auto=format&fit=crop&w=900&q=80">
+                    <div class="animal-card__image">
+                        <img src="https://images.unsplash.com/photo-1474511320723-9a56873867b5?auto=format&fit=crop&w=900&q=80" alt="Tapir">
+                        <span class="animal-card__badge">Floresta tropical</span>
+                    </div>
+                    <div class="animal-card__info">
+                        <h3>Tapir</h3>
+                        <p>Grande herbívoro das florestas.</p>
+                    </div>
+                </article>
             </div>
-          </div><!-- End Gallery Item -->
+        </section>
+    </main>
 
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="img/gallery-2.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="img/gallery-2.jpg" title="Gallery 2" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="index.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
+    <div id="animalModal" class="animal-modal" aria-hidden="true">
+        <div class="animal-modal__backdrop" data-close="true"></div>
+        <div class="animal-modal__content">
+            <button class="animal-modal__close" aria-label="Fechar">×</button>
+            <img id="modalImage" src="" alt="">
+            <div class="animal-modal__body">
+                <p class="animal-modal__label">Nome</p>
+                <h3 id="modalName"></h3>
+                <p class="animal-modal__label">Nome científico</p>
+                <p id="modalScientific"></p>
+                <p class="animal-modal__label">Classificação</p>
+                <p id="modalClassification"></p>
+                <p class="animal-modal__label">Curiosidade / descrição</p>
+                <p id="modalDescription"></p>
             </div>
-          </div><!-- End Gallery Item -->
+        </div>
+    </div>
 
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="img/gallery-3.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="img/gallery-3.jpg" title="Gallery 3" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="index.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div>
-          </div><!-- End Gallery Item -->
+    <script>
+        const modal = document.getElementById('animalModal');
+        const modalImage = document.getElementById('modalImage');
+        const modalName = document.getElementById('modalName');
+        const modalScientific = document.getElementById('modalScientific');
+        const modalClassification = document.getElementById('modalClassification');
+        const modalDescription = document.getElementById('modalDescription');
 
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="img/gallery-4.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="img/gallery-4.jpg" title="Gallery 4" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="index.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div>
-          </div><!-- End Gallery Item -->
+        document.querySelectorAll('.animal-card').forEach(card => {
+            card.addEventListener('click', () => {
+                modalImage.src = card.dataset.image;
+                modalImage.alt = card.dataset.name;
+                modalName.textContent = card.dataset.name;
+                modalScientific.textContent = card.dataset.scientific;
+                modalClassification.textContent = card.dataset.classification;
+                modalDescription.textContent = card.dataset.description;
+                modal.classList.add('show');
+                modal.setAttribute('aria-hidden', 'false');
+            });
+        });
 
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="img/gallery-5.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="img/gallery-5.jpg" title="Gallery 5" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="index.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div>
-          </div><!-- End Gallery Item -->
+        document.querySelectorAll('[data-close="true"]').forEach(closeArea => {
+            closeArea.addEventListener('click', () => {
+                modal.classList.remove('show');
+                modal.setAttribute('aria-hidden', 'true');
+            });
+        });
 
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="img/gallery-6.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="img/gallery-6.jpg" title="Gallery 6" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="index.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div>
-          </div><!-- End Gallery Item -->
+        document.querySelector('.animal-modal__close').addEventListener('click', () => {
+            modal.classList.remove('show');
+            modal.setAttribute('aria-hidden', 'true');
+        });
 
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="img/gallery-7.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="img/gallery-7.jpg" title="Gallery 7" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="index.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-xl-3 col-lg-4 col-md-6">
-            <div class="gallery-item h-100">
-              <img src="img/gallery-8-2.jpg" class="img-fluid" alt="">
-              <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-8-2.jpg" title="Gallery 8" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
-                <a href="index.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div>
-          </div>
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape' && modal.classList.contains('show')) {
+                modal.classList.remove('show');
+                modal.setAttribute('aria-hidden', 'true');
+            }
+        });
+    </script>
 </body>
 </html>
