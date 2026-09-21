@@ -2,7 +2,7 @@ import { Leaf } from "lucide-react";
 import { useScrollProgress } from "@/hooks/use-reveal";
 
 const links = [
-  { href: "../../../index.html", label: "Site principal" },
+  { href: "https://claracarvalho1827-eng.github.io/Enciclop-dia2/", label: "Site principal" },
   { href: "#tres-rs", label: "3 Rs" },
   { href: "#jogo", label: "Jogo da lixeira" },
   { href: "#impacto", label: "Impacto" },

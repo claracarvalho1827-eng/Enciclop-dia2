@@ -17,7 +17,7 @@ export function Footer() {
         </div>
         <div className="flex items-center gap-3">
           <a
-            href="../../../index.html"
+            href="https://claracarvalho1827-eng.github.io/Enciclop-dia2/"
             className="inline-flex items-center gap-2 self-start rounded-full border border-leaf/30 bg-card px-5 py-2.5 text-sm font-semibold transition-colors hover:bg-secondary sm:self-auto"
           >
             <Recycle className="size-4 text-leaf" /> Voltar ao site principal
