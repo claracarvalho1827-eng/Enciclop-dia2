@@ -2,6 +2,7 @@ import { Leaf } from "lucide-react";
 import { useScrollProgress } from "@/hooks/use-reveal";
 
 const links = [
+  { href: "../index.html", label: "Site principal" },
   { href: "#tres-rs", label: "3 Rs" },
   { href: "#jogo", label: "Jogo da lixeira" },
   { href: "#impacto", label: "Impacto" },
@@ -16,7 +17,7 @@ export function TopBar() {
     <header className="fixed inset-x-0 top-0 z-50">
       <div className="border-b border-border/60 bg-background/80 backdrop-blur-xl">
         <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5">
-          <a href="#topo" className="group flex items-center gap-2 font-display text-lg font-semibold">
+          <a href="../index.html" className="group flex items-center gap-2 font-display text-lg font-semibold">
             <span className="grid size-9 place-items-center rounded-full gradient-leaf text-leaf-foreground transition-transform group-hover:rotate-[20deg]">
               <Leaf className="size-5" />
             </span>
