@@ -3,45 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mamíferos da América Latina</title>
+    <title>Repteis da América Latina</title>
 
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container-fluid bg-secondary px-0 wow fadeIn" data-wow-delay="0.1s">
+ <div class="container-fluid bg-secondary px-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="nav-bar">
             <nav class="navbar navbar-expand-lg bg-primary navbar-dark px-4 py-lg-0">
                 <h4 class="d-lg-none m-0">Menu</h4>
                 <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
-                    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav">
-                        <a class="nav-item nav-link" href="../index.html">Home</a>
-
+                        <a class="nav-item nav-link" href="index.html">Home</a>
+                        
                         <div class="nav-item dropdown">
                             <a class="nav-item nav-link dropdown-toggle" href="#" id="animaisDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Animais
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="animaisDropdown">
-                                <li><a class="dropdown-item" href="mamiferos.html">Mamíferos</a></li>
-                                <li><a class="dropdown-item" href="aves.html">Aves</a></li>
-                                <li><a class="dropdown-item" href="repteis.html">Répteis</a></li>
-                                <li><a class="dropdown-item" href="anfibios.html">Anfíbios</a></li>
-                                <li><a class="dropdown-item" href="peixes.html">Peixes</a></li>
-                                <li><a class="dropdown-item" href="insetos.html">Insetos</a></li>
-                                <li><a class="dropdown-item" href="aracnideos.html">Aracnídeos</a></li>
-                                <li><a class="dropdown-item" href="crustaceos.html">Crustáceos</a></li>
-                                <li><a class="dropdown-item" href="moluscos.html">Moluscos</a></li>
-                                <li><a class="dropdown-item" href="outros-invertebrados.html">Outros invertebrados</a></li>
+                                <li><a class="dropdown-item" href="animais/mamiferos.html">Mamíferos</a></li>
+                                <li><a class="dropdown-item" href="animais/aves.html">Aves</a></li>
+                                <li><a class="dropdown-item" href="animais/repteis.html">Répteis</a></li>
+                                <li><a class="dropdown-item" href="animais/anfibios.html">Anfíbios</a></li>
+                                <li><a class="dropdown-item" href="animais/peixes.html">Peixes</a></li>
+                                <li><a class="dropdown-item" href="animais/insetos.html">Insetos</a></li>
+                                <li><a class="dropdown-item" href="animais/aracnideos.html">Aracnídeos</a></li>
+                                <li><a class="dropdown-item" href="animais/crustaceos.html">Crustáceos</a></li>
+                                <li><a class="dropdown-item" href="animais/moluscos.html">Moluscos</a></li>
+                                <li><a class="dropdown-item" href="animais/outros-invertebrados.html">Outros invertebrados</a></li>
                             </ul>
                         </div>
-
-                        <a class="nav-item nav-link" href="../contato.html">Contato</a>
-                        <a class="nav-item nav-link" href="../formulario.html">Sugestões</a>
+                        
+                        <a class="nav-item nav-link" href="contato.html">Contato</a>
+                        <a class="nav-item nav-link" href="formulario.html">Sugestões</a>
+                         <div class="nav-item dropdown">
+                            <a class="nav-item nav-link dropdown-toggle" href="#" id="animaisDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Mais
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="animaisDropdown">
+                                <li><a class="dropdown-item" href="https://claracarvalho1827-eng.github.io/reduzir_reciclar_reltilizar/" target="_self">12 ODS</a></li>
+                                <li><a class="dropdown-item" href="contact.html">vídeos</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </nav>
@@ -61,10 +69,10 @@
             <div class="animal-grid">
                 <article class="animal-card" data-name="Jacaré-açu" data-scientific="Melanosuchus Niger" data-classification="Répteis" data-description="O jacaré-açu (Melanosuchus niger) é a maior espécie de jacaré, podendo ultrapassar 5 metros de comprimento. É um predador de topo de cadeia e vive principalmente em rios, lagos e áreas alagadas da Amazônia.
 É carnívoro e se alimenta de animais como peixes, tartarugas, capivaras e veados. A espécie já esteve próxima da extinção devido à caça pelo couro e pela carne, e atualmente ainda sofre com desmatamento, criação de represas e caça.
-" data-image="../img/capivara.jpeg">
+" data-image="../img/animais/jacaré-açu.jpg">
                     <div class="animal-card__image">
-                        <img src="../img/capivara.jpeg" alt="Capivara">
-                        <span class="animal-card__badge">América do Sul</span>
+                        <img src="../img/animais/jacaré-açu.jpg" alt="jacaré-açu">
+                        <span class="animal-card__badge"> América do Sul</span>
                     </div>
                     <div class="animal-card__info">
                         <h3>Jacaré-açu</h3>
@@ -74,9 +82,9 @@
 
                 <article class="animal-card" data-name="Iguana" data-scientific="Iguana Iguana" data-classification="Répteis" data-description="A iguana-verde é um dos maiores lagartos das Américas, podendo medir cerca de 2 metros e pesar aproximadamente 5 kg. É encontrada desde o norte do México até o sul do Brasil, passando pela América Central e ilhas do Caribe.
 É principalmente herbívora e se alimenta de folhas, flores e frutas. Vive grande parte do tempo nas copas das árvores, geralmente perto da água, e é uma excelente nadadora. Quando ameaçada, pode escapar pulando de grandes alturas para a água ou usando a cauda para afastar predadores.
-" data-image="../img/Raposa.jpeg">
+" data-image="../img/animais/iguana-verde.jpg">
                     <div class="animal-card__image">
-                        <img src="../img/Raposa.jpeg" alt="Raposa">
+                        <img src="../img/animais/iguana-verde.jpg" alt="Iguana">
                         <span class="animal-card__badge">Mata e campo</span>
                     </div>
                     <div class="animal-card__info">
@@ -87,9 +95,9 @@
 
                 <article class="animal-card" data-name="Tartaruga-da-Amazônia" data-scientific="Podocnemis expansa" data-classification="Répteis" data-description="A tartaruga-da-Amazônia é considerada o maior quelônio de água doce da América do Sul, podendo ultrapassar 1 metro de comprimento. Possui casco ósseo oval, com manchas escuras, e cabeça achatada com desenhos únicos em cada indivíduo.
 Vive principalmente em baías de grandes rios e lagos da Bacia Amazônica e de outros países da América do Sul. Alimenta-se de peixes, moluscos, crustáceos, insetos, vermes, frutas e folhas. É quase ameaçada de extinção e pode viver cerca de 100 anos em cativeiro.
-" data-image="../img/onca.webp">
+" data-image="../img/animais/tartaruga-da-Amazônia.jpg">
                     <div class="animal-card__image">
-                        <img src="../img/onca.webp" alt="Onça-pintada">
+                        <img src="../img/animais/tartaruga-da-Amazônia.jpg" alt="Tartaruga-da-Amazônia">
                         <span class="animal-card__badge">Floresta</span>
                     </div>
                     <div class="animal-card__info">
@@ -102,7 +110,7 @@ Vive principalmente em baías de grandes rios e lagos da Bacia Amazônica e de o
 Vive principalmente em águas costeiras, ilhas e baías de regiões tropicais e subtropicais. Realiza longas migrações entre áreas de alimentação e praias de reprodução. Quando jovem é onívora, mas se torna principalmente herbívora conforme cresce. As fêmeas podem realizar de duas a cinco ninhadas por estação.
 " data-image="../img/gallery-1.jpg">
                     <div class="animal-card__image">
-                        <img src="../img/gallery-1.jpg" alt="Jaguar">
+                        <img src="../img/animais/tartaruga-verde.jpg" alt="tartaruga-verde">
                         <span class="animal-card__badge">Selva</span>
                     </div>
                     <div class="animal-card__info">
@@ -113,9 +121,9 @@ Vive principalmente em águas costeiras, ilhas e baías de regiões tropicais e 
 
                 <article class="animal-card" data-name="Jiboia" data-scientific="Boa constrictor" data-classification="Répteis" data-description="A jiboia é uma serpente constritora não venenosa encontrada nas regiões tropicais da América Central e do Sul. Sua coloração pode variar entre tons de marrom, verde, vermelho e amarelo, apresentando diferentes padrões pelo corpo.
 Pode atingir até 4 metros de comprimento e pesar mais de 45 kg. Alimenta-se de animais como aves, macacos e porcos selvagens, capturando suas presas com o corpo musculoso. As fêmeas podem dar à luz até 60 filhotes vivos. A espécie sofre com a caça para obtenção de sua pele e com o comércio de animais exóticos.
-" data-image="../img/gallery-2.jpg">
+" data-image="../img/animais/jiboia.jpg">
                     <div class="animal-card__image">
-                        <img src="../img/gallery-2.jpg" alt="Lobo-guará">
+                        <img src="../img/animais/jiboia.jpg" alt="Jiboia">
                         <span class="animal-card__badge">Cerrado</span>
                     </div>
                     <div class="animal-card__info">
